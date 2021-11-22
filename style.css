@@ -1,0 +1,75 @@
+    .gradiente
+    {                
+    background-image: url("Portfolio\ Web/modern_background.png");
+    background-size: cover;
+    background-attachment: scroll;
+    }
+    h1 
+    {
+        color:azure;
+        font-size: 2em;
+    }
+    h2,h3 
+    {
+        color: azure;
+        font-size: 30px;
+    }
+    p, ul, li
+    {
+        color: azure;
+    }    
+    .buttoncosplay
+    {
+        line-height: 30px;
+        background: rgb(255, 255, 255);
+        margin: 20px 70px ;
+        padding: 10px;
+        border-radius: 4px;
+        display: block;
+        width: 300px;
+        text-align: center;
+        color: azure;
+        font-weight: 700;
+    }
+    .buttoncosplay:hover
+    {
+        background:rgb(63, 116, 221);        
+    }
+    .button
+    {
+        
+        line-height: 30px;
+        background: rgb(255, 255, 255);
+        margin: 30px ;
+        padding: 10px;
+        border-radius: 4px;
+        display: block;
+        width: 300px;
+        text-align: center;
+        color: azure;
+        font-weight: 700;
+    }
+    .button:hover
+    {
+        background:rgb(63, 116, 221);        
+    }
+    nav a:link { color: rgb(50, 218, 218)}
+    .buttontitulo
+    {        
+        font-style: normal;
+        box-sizing: border-box;
+        line-height: 10px;
+        background: azure;
+        margin: 20px 20px;
+        padding: 10px;
+        border-radius: 4px;
+        width: 100px;
+        text-align: center;
+        color:transparent;
+        font-weight:bolder;
+    }
+    .buttontitulo:hover
+    {
+        background:rgb(63, 116, 221);        
+    }
+

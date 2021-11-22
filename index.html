@@ -5,18 +5,23 @@
         <meta charset="UTF-8"> <!--Define o charset da página, especificando o tipo de teclas ASCII-->
         <title>Portfólio Web Arthur</title> <!--O título da página, onde fica o nome na aba do navegador-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Portviwer, para ajustar a escala da página-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+        </style>
     </head>
-    <body>
+
+    <body class="gradiente">
+        
         <h1>Arthur Pablo Nascimento Silva Moraes Barros</h1> <!--h1 é o tipo de tamanho, vai até h6-->
         <p><i>Hello, world!</i></p> <!--p, é a tag de parágrafo-->
         <ul>
-            <li><a href="#True Option">Meu Perfil</a></li>
-            <li><a href="#Link Cosplays">Cosplays</a></li>
-            <li><a href="#Gostos">Coisas que eu gosto</a></li>
+            <li class="buttontitulo"><a href="#True Option" style="text-decoration:none">Meu Perfil</a></li>
+            <li class="buttontitulo"><a href="#Link Cosplays" style="text-decoration:none">Cosplays</a></li>
+            <li class="buttontitulo"><a href="#Gostos" style="text-decoration:none">Coisas que eu gosto</a></li>
         </ul>
-        <table>
-            <tr>
-                <td><img src="Portfolio Web/Foto face.jpeg" width="300" alt="Foto atual" title="Foto atual"></td>
+        <table >
+            <tr >
+                <td><img src="Portfolio Web/Foto face.jpeg" width="300" alt="Foto atual" title="Foto atual" ></td>
                 <td>
                     <ul>
                         <li>Cara de nerd ? ☑</li>
@@ -46,15 +51,14 @@
                 </td>
             </tr>
         </table>
-        <h2 id="Link Cosplays"><a href="foto interna.html"><i>Link para fotos dos cosplays</a></h2></i></h2>
-        <h2 id="Gostos">Links para blogs eu curto:</h2>
+        <h2 id="Link Cosplays" class="buttoncosplay"><a href="foto interna.html" style="text-decoration:none"><i>Foto dos cosplays</a></h2></i></h2>
+        <h2 id="Gostos">Blogs eu curto:</h2>
         <ul>
-            <li><a href="https://netflix.com">Netflix</a></li>
-            <li><a href="https://www.gov.br/pf/pt-br">Polícia Federal</a></li>
-            <li><a href="https://www.youtube.com/c/Kmaker">KMaker Cosmaker(Canal de Cosmaker)</a></li>
-            <li><a href="https://www.youtube.com/channel/UCcGk83PAQ5aGR7IVlD_cBaw">Brincando com idéias(Canal de arduíno)</a></li>
-            <li><a href="https://www.youtube.com/channel/UChfu9xWITOvsXYLKm7hieSQ">Laboratório da Júlia(Canal de Hardware)</a></li>
+            <li class="button"><a href="https://netflix.com" style="text-decoration:none">Netflix</a></li>
+            <li class="button"><a href="https://www.gov.br/pf/pt-br" style="text-decoration:none">Polícia Federal</a></li>
+            <li class="button"><a href="https://www.youtube.com/c/Kmaker" style="text-decoration:none">KMaker Cosmaker(Canal de Cosmaker)</a></li>
+            <li class="button"><a href="https://www.youtube.com/channel/UCcGk83PAQ5aGR7IVlD_cBaw" style="text-decoration:none">Brincando com idéias(Canal de arduíno)</a></li>
+            <li class="button"><a href="https://www.youtube.com/channel/UChfu9xWITOvsXYLKm7hieSQ" style="text-decoration:none">Laboratório da Júlia(Canal de Hardware)</a></li>
         </ul>
     </body>
-
 </html>
